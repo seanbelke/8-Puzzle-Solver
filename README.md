@@ -1,7 +1,7 @@
 # 8-Puzzle-Solver
 An algorithm that finds the optimal solution to any scrambled 8 puzzle, along with a GUI and a function to generate scrambles.
 
-## Overview
+## 8-Puzzle Overview
 An 8-Puzzle is a sliding tile game on a 3x3 grid.  There are 8 tiles on the grid and one blank space, allowing the player
 to slide the tiles around the grid using the blank space.  The goal is to permute the tiles on the grid such that
 they form the sequence 1, 2, 3, 4, 5, 6, 7, 8, with the blank at the end, when reading the tiles in row-major order.
