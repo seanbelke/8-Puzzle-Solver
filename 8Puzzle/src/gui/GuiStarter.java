@@ -28,7 +28,7 @@ public class GuiStarter {
 		
 		/* create frame, set its size, and add a MainPanel */
 		JFrame frame = new JFrame("8-Puzzle");
-		frame.setSize(gridSize + 9, (gridSize + bottomPanelSize + 31));
+		frame.setSize(gridSize + 16, (gridSize + bottomPanelSize + 39));
 		frame.setContentPane(new MainPanel(gridSize, 10, bottomPanelSize, 10, PuzzleState.GOAL_STATE));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
