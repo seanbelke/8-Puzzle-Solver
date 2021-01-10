@@ -107,4 +107,4 @@ https://ssaurel.medium.com/developing-a-15-puzzle-game-of-fifteen-in-java-dfe135
 
 ## Build Instructions
 
-Start the program by running the main method in Driver.java.
+Start the program by running the main method in Driver.java
