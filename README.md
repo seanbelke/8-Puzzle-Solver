@@ -98,8 +98,8 @@ for the Manhattan Distance + Tile Reversal heuristic, so the solution displayed 
 ## Compatability Note
 This program was written and tested on a Windows PC, so it is possible that running it on a Mac or Linux machine will
 produce some minor alignment issues around the border of the JFrame.  If this is the case, it would be resolved by 
-modifying the arguments to the initializeAndDisplayGui method called in the Driver as well as the constants added to
-the gridSize and bottomPanelSize arguments in the setSize method called in the GuiStarter.initializeAndDisplayGui
+modifying the arguments to the initializeAndDisplayGUI method called in the Driver as well as the constants added to
+the gridSize and bottomPanelSize arguments in the setSize method called in the GuiStarter.initializeAndDisplayGUI
 method.
 
 ## References
@@ -109,7 +109,7 @@ http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
 https://en.wikipedia.org/wiki/A*_search_algorithm#Optimal_efficiency
 https://en.wikipedia.org/wiki/Admissible_heuristic
 
-### Graphical Interface Source: 
+### Referred to this source when writing the GUI: 
 https://ssaurel.medium.com/developing-a-15-puzzle-game-of-fifteen-in-java-dfe1359cc6e3
 
 ## Build Instructions
