@@ -95,6 +95,13 @@ The A* algorithm is guaranteed to find an optimal solution if the heuristic bein
 of admissibility means that the heuristic never overestimates the remaining cost to solve the puzzle.  This is the case
 for the Manhattan Distance + Tile Reversal heuristic, so the solution displayed will always be optimal.
 
+## Compatability Note
+This program was written and tested on a Windows PC, so it is possible that running it on a Mac or Linux machine will
+produce some minor alignment issues around the border of the JFrame.  If this is the case, it would be resolved by 
+modifying the arguments to the initializeAndDisplayGui method called in the Driver as well as the constants added to
+the gridSize and bottomPanelSize arguments in the setSize method called in the GuiStarter.initializeAndDisplayGui
+method.
+
 ## References
 
 ### A* Algorithm Sources: 
