@@ -104,7 +104,7 @@ method.
 
 ## References
 
-### A* Algorithm Sources: 
+### A* Algorithm Explanation: 
 http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
 https://en.wikipedia.org/wiki/A*_search_algorithm#Optimal_efficiency
 https://en.wikipedia.org/wiki/Admissible_heuristic
